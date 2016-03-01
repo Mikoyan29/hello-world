@@ -1,65 +1,152 @@
-![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
+# 联盟会员My Account
 
-除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员My Account
+功能介绍|展示对联盟会员的问候，通知，佣金发放情况以及最新的活动等
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|联盟会员欢迎页，向联盟会员展示佣金支付情况，最新活动等重要信息
+如何修改|93/硬写
+显示逻辑|部分来自后台编辑，部分来自语言包，banner在banner列表设置，**联盟首页图**分类
+缓存逻辑|无https://www.zybuluo.com/settings
+**频率**|
+用户使用频率|3
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|5
+**备注**|
 
-### [Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
 
-> 请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
+# 联盟会员Lasest News
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员Lasest News
+功能介绍|展示一张banner和一排分享按钮,banner在后台列表设置，分类为联盟latest_news
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|展示一张banner，用了通知联盟会员promotion和最新activity的更新情况
+如何修改|93
+显示逻辑|banner在后台列表设置，分类为**联盟latest_news**
+缓存逻辑|缓存banner信息，affiliate_desc_32，缓存时间12小时
+**频率**|
+用户使用频率|3
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|5
+**备注**|
 
-------
-## 什么是 Markdown
+# 联盟会员Banners
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员Banners
+功能介绍|展示一群banner,用来显示在联盟会员的博客里，点击某一banner就可以把对应的html代码复制到剪贴板，页面上方按banner的尺码形成标签，可以根据标签筛选
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|方便联盟会员在自己的网站上展示shein的广告
+如何修改|硬写
+显示逻辑|由前端写死
+缓存逻辑|无
+**频率**|
+用户使用频率|4
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|4
+**备注**|
 
-Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
+# 联盟会员Products
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员Products
+功能介绍|展示一群Products,用来显示在联盟会员的博客里，点击click to copy 会展示联盟会员在博客显示该banner需要的html代码，页面上方可以根据商品分类进行商品筛选
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|方便联盟会员在自己的网站上展示shein想要推广的产品
+如何修改|93
+显示逻辑|在后台banner列表设置，**联盟产品图**分类
+缓存逻辑|无
+**频率**|
+用户使用频率|5
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|4
+**备注**|
 
-### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
+# 联盟会员Promotions
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员Promotions
+功能介绍|介绍参加promotion的方法，以及步骤，点击Share Now按钮展示联盟会员在博客显示该页上促销信息需要的html代码
+点击Submit会跳到Submit Link页面。
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|方便联盟会员在自己的网站上展示shein想要推广的产品
+如何修改|93/硬写
+显示逻辑|其中banner在后台banner列表设置，**联盟活动图**分类，其余的字都是语言包写死
+缓存逻辑|无
+**频率**|
+用户使用频率|5
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|4
+**备注**|
 
-- [ ] 支持以 PDF 格式导出文稿
-- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-- [x] 新增 Todo 列表功能
-- [x] 修复 LaTex 公式渲染问题
-- [x] 新增 LaTex 公式编号功能
-
-### 2. 书写一个质能守恒公式[^LaTeX]
-
-$$E=mc^2$$
-
-### 3. 高亮一段代码[^code]
-
-```python
-@requires_authorization
-class SomeClass:
-    pass
-
-if __name__ == '__main__':
-    # A comment
-    print 'hello world'
-```
-
-### 4. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-### 5. 高效绘制 [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图)
-
-```seq
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-
-### 6. 绘制表格
-
-| 项目        | 价格   |  数量  |
-| --------   | -----:  | :----:  |
-| 计算机     | \$1600 |   5     |
-| 手机        |   \$12   |   12   |
-| 管线        |    \$1    |  234  |
+# 联盟会员Coupons
+列名|内容
+-------|----
+功能编号|暂无
+功能名|联盟会员Coupons
+功能介绍|联盟会员可以使用页面上的coupons获得优惠。
+**负责人**|
+产品|沈付宇
+运营|徐阳历
+前端|刘峰
+后端|丁玉刚/屠晓晨
+UI|沈付宇
+**逻辑**|
+产生逻辑|方便联盟会员在用户中心看到能使用的优惠券
+如何修改|93/硬写
+显示逻辑|其中banner在后台banner列表设置，**联盟coupon提示**分类，其余的字都是语言包写死
+缓存逻辑|无
+**频率**|
+用户使用频率|5
+运营使用频率|4
+**效果**|
+可用性|4
+必要度|4
+**备注**|
